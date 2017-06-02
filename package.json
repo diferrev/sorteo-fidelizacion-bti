@@ -1,0 +1,22 @@
+{
+  "name": "fidelizacionbti",
+  "version": "1.0.0",
+  "description": "Sorteador de Fidelización de Clientes - BTI",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "url": "https://github.com/diferrev/sorteo-fidelizacion-bti.git"
+  },
+  "author": "Diego F. Reyes <diferre@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}

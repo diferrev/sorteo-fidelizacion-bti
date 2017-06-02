@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sorteo Fidelización - BTI</title>
+    <link rel="stylesheet" href="./build/css/app.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sorteo Fidelización de Clientes</h1>
+        <img src="./build/img/ligxap.png" alt="" class="logo">
+        <span data-timer class="timer"></span>
+        <div data-randomclient class="random-client">
+            <template id="template-client">
+                <h1 data-client="name"></h1>
+            </template>
+            <template id="template-winner">
+                <div data-winner="container">
+                    <span data-winner="message"></span>
+                    <h1 data-winner="name"></h1>
+                    <h2 data-winner="position"></h2>
+                    <h3 data-winner="company"></h3>
+                    <p>
+                        Teléfono: <span data-winner="tel"></span> - Email: <span data-winner="email"></span>
+                    </p>
+                </div>
+            </template>
+        </div>
+    </div>
+    <script src="./build/js/vendor/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script>
+    <script src="./build/js/app.js"></script>
+</body>
+</html>

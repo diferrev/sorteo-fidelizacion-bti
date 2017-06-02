@@ -1,0 +1,40 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    background-image: url( '../img/fondo_ilustracion.png' );
+    background-position: center top;
+    background-repeat: repeat-x;
+    font-family: sans-serif;
+}
+.container{
+    text-align: center;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo{
+    display: block;
+    width: 140px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.timer{
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    margin: 25px 0;
+}
+.random-client{
+    text-align: center;
+}
+[data-winner="message"]{
+    color: #055497;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
